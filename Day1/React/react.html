@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Hello world using CDN</title>
+  </head>
+  <body>
+    <h1 id="hello-world-root">Hello world in React CDN</h1>
+    
+  </body>
+  <script
+    crossorigin
+    src="https://unpkg.com/react@18/umd/react.development.js"
+  ></script>
+  <script
+    crossorigin
+    src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+  ></script>
+<script>
+    const helloworld= React.createElement('h1', {},' hello world using react CDN')
+    const root = ReactDOM.createRoot(document.getElementById('hello-world-root'))
+    root.render(heading)
+</script>
+</html>
