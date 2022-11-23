@@ -3,7 +3,7 @@
     <title>Hello world using CDN</title>
   </head>
   <body>
-    <h1 id="hello-world-root">Hello world in React CDN</h1>
+    <h1 id="hello-world-root"></h1>
     
   </body>
   <script
@@ -17,6 +17,6 @@
 <script>
     const helloworld= React.createElement('h1', {},' hello world using react CDN')
     const root = ReactDOM.createRoot(document.getElementById('hello-world-root'))
-    root.render(heading)
+    root.render(helloworld)
 </script>
 </html>
